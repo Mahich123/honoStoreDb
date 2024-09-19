@@ -8,7 +8,7 @@ const app = new Hono();
 app.use(
   "/api/*",
   cors({
-    origin: ["http://localhost:3000", "http://localhost:5173"],
+    origin: ["https://honostoredb.onrender.com/"],
   })
 );
 
