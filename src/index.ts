@@ -8,7 +8,7 @@ const app = new Hono();
 app.use(
   "/api/*",
   cors({
-    origin: ["https://honostoredb.onrender.com/"],
+    origin: ["https://api-to-database.vercel.app/"],
   })
 );
 
